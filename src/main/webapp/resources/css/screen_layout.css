@@ -1,0 +1,90 @@
+@media only screen
+and (max-width : 1024px) {
+	thead{
+margin-top: -4.6%;
+} 
+ #acceptbutton{
+margin-left: 69%;
+  margin-top: -5%;
+
+  }
+
+}
+
+@media only screen
+and (max-width : 1336px) {
+	  
+	  thead{
+    margin-top: -3.6%;
+
+  
+}
+  #bbt{
+    margin-right: 1%;
+  }
+  #acceptbutton {
+margin-left: 75%;
+margin-top: -4%;
+
+  }
+}
+
+
+@media only screen
+and (max-width : 1280px) {
+	thead{
+  margin-top: -3.6%;
+}
+#acceptbutton{
+margin-left: 75%;
+margin-top: -4%;
+  }
+  #bbt{
+    margin-right: 0%;
+  }
+
+
+}
+
+
+
+
+@media only screen
+and (max-width : 1680px) {
+  thead{
+    margin-top: -2.9%;
+
+  }
+
+}
+
+@media only screen
+and (max-width : 1440px) {
+thead{
+  margin-top: -3.3%;
+}
+#bbt{
+    margin-right: 2%;
+
+  }
+}
+
+
+
+/*@media only screen
+and (max-width:1920px) {
+#acceptbutton{
+margin-left: 80%;
+margin-top: -4%;
+  }
+  #bbt{
+
+   margin-right:8%;
+}
+thead{
+  margin-top: -1.9%;
+  
+}
+
+
+}*/
