@@ -1,11 +1,17 @@
-package com.iiit.parksys;
+package com.iiit.parksys.service;
 
-public class EntryHandler implements Handler {
+import com.iiit.parksys.vo.Vehicle;
+
+/**
+ * It handles the services for vehicles
+ * @author ramakrishna
+ *
+ */
+public class ServiceHandler implements Handler {
 	private Handler nextHandler;
 
 	public void handleVehicle(Vehicle vehicle) {
 
-		DatabaseUtil.insertSearchControl(vehicle);
 		if (nextHandler != null) {
 			nextHandler.handleVehicle(vehicle);
 		}

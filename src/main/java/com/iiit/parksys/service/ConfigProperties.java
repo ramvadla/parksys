@@ -1,4 +1,4 @@
-package com.iiit.parksys;
+package com.iiit.parksys.service;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -7,7 +7,11 @@ import java.util.Properties;
 
 import com.google.common.io.ByteSource;
 import com.google.common.io.Resources;
-
+/**
+ * It handles the configuration proerties
+ * @author ramakrishna
+ *
+ */
 public class ConfigProperties {
 
 	private static Properties prop = new Properties();

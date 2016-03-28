@@ -1,6 +1,14 @@
-package com.iiit.parksys;
+package com.iiit.parksys.service;
 
-public class ExitHandler implements Handler {
+import com.iiit.parksys.vo.Vehicle;
+
+/**
+ * It handles the authentication of the vehicles
+ * 
+ * @author ramakrishna
+ * 
+ */
+public class AuthHandler implements Handler {
 	private Handler nextHandler;
 
 	public void handleVehicle(Vehicle vehicle) {

@@ -4,11 +4,28 @@
 <web-app>
 	<servlet>
 		<servlet-name>EntryServlet</servlet-name>
-		<servlet-class>com.iiit.parksys.EntryServlet</servlet-class>
+		<servlet-class>com.iiit.parksys.controllers.EntryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ExitServlet</servlet-name>
+		<servlet-class>com.iiit.parksys.controllers.ExitServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DownloadServlet</servlet-name>
+		<servlet-class>com.iiit.parksys.controllers.DownloadServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>EntryServlet</servlet-name>
 		<url-pattern>/EntryServlet</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExitServlet</servlet-name>
+		<url-pattern>/ExitServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DownloadServlet</servlet-name>
+		<url-pattern>/DownloadServlet</url-pattern>
+	</servlet-mapping>
+
 </web-app>

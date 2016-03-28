@@ -1,7 +1,11 @@
-package com.iiit.parksys;
+package com.iiit.parksys.vo;
 
 import java.util.Date;
-
+/**
+ * It contains the parking record state
+ * @author ramakrishna
+ *
+ */
 public class ParkingRecord {
 	private int vehicleId;
 	private Date inTime;

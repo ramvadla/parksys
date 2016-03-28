@@ -1,6 +1,14 @@
-package com.iiit.parksys;
+package com.iiit.parksys.service;
 
-public class PaymentHandler implements Handler {
+import com.iiit.parksys.vo.Vehicle;
+
+/**
+ * It handles the parking of the vehicles
+ * 
+ * @author ramakrishna
+ * 
+ */
+public class ParkingHandler implements Handler {
 	private Handler nextHandler;
 
 	public void handleVehicle(Vehicle vehicle) {

@@ -1,8 +1,12 @@
-package com.iiit.parksys;
+package com.iiit.parksys.service;
 
 import java.sql.*;
 
-
+/**
+ * It is the utility class for connecting to the database
+ * @author ramakrishna
+ *
+ */
 public class ConnectionUtil {
 	static Connection con = null;
 
